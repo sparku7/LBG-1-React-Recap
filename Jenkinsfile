@@ -1,7 +1,5 @@
 pipeline {
-
     agent any
-
     stages {
         stage('Install') {
             steps {
@@ -10,8 +8,7 @@ pipeline {
                 '''
             }
         }
-
-         stage('Delete') {
+        stage('Delete') {
             steps {
                 bat '''
                 pm2 delete all

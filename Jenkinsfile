@@ -17,10 +17,6 @@ pipeline {
                 '''
             }
         }
-        stage('Run') {
-            steps {
-                bat 'script.bat'
-            }
-        }
+      
     }
 }

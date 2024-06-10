@@ -28,7 +28,7 @@ function PetForm({ getPets }) {
         <Input type="text" name="name" id="name" value={name} onChange={e => setName(e.target.value)} required />
         <label htmlFor="age">Age</label>
         <Input type="number" name="age" id="age" value={age} onChange={e => setAge(parseInt(e.target.value))} min={1} max={100} required />
-        <label htmlFor="breed">Breed</label>
+        <label htmlFor="breed">Breeder</label>
         <Input type="text" name="breed" id="breed" value={breed} onChange={e => setBreed(e.target.value)} required />
         <label htmlFor="colour">Colour</label>
         <Input type="text" name="colour" id="colour" value={colour} onChange={e => setColour(e.target.value)} required />
